@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+section{
+    width: 100%;
+}
+#first{
+    background: url(../images/bg_img.jpg) repeat-x;
+}
+header{
+    width: 1000px;
+    margin: auto;
+}
+.headtop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+    padding-top: 20px;
+}
+.headcontent{
+    font-size: 20px;
+    color: #09c;
+    font-family: Arial,Verdana,Tahoma, sans-serif;
+    padding-right: 5px;
+    text-align: right;
+    line-height: 30px;
+}
+.headcontent span{
+    color: rgb(0,102,204);
+}
+nav{
+    width: 100%;
+    background: url(../images/menu_rept.jpg) repeat-x;
+    height: 49px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+nav ul{
+    list-style: none;
+    line-height: 38px;
+    padding: 7px 15px 0px 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav li a{
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.banner{
+    width: 978px;
+    height: 355px;
+}
+main{
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+}
+h3{
+    font-size: 18px;
+    color: #171819;
+    font-weight: normal;
+}
+.Why{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.choose{
+    width: 300px;
+    padding-left: 30px;
+}
+.choose h4{
+    color: #084986;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px 10px;
+}
+.choose1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.choose1 img{
+    margin: 10px 0px 0px 10px;
+}
+.choose1 p{
+    color: #545d63;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 17px;
+    width: 218px;
+}
+.choose:nth-child(2){
+    padding-left: 10px;
+}
+.choose:nth-child(3){
+    padding-left: 5px;
+    border-left: 2px solid #c4e7ee;
+}
+.midborder1{
+    width: 954px;
+    height: 2px;
+    margin: 30px auto 20px auto;
+    background: url(../images/footer_border.jpg) no-repeat center;
+}
+.belowmid2{
+    color: #171819;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.service{
+    width: 1000px;
+    background: url(../images/midback.png) no-repeat center;
+    height: 233px;
+}
+.row{
+    display: flex;
+}
+.service1{
+    width: 325px;
+    margin: 10px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.service1 img{
+    margin-left: 15px;
+}
+.service1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #084a87;
+    margin-left: 15px;
+}
+.belowmidborder{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.other1{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.other1 img{
+    margin-left: 20px;
+}
+.othercontent{
+    width: 220px;
+}
+.othercontent h4{
+    color: #084a87;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.othercontent p{
+    color: #454545;
+    font-size: 12px;
+    line-height: 18px;
+}
+.kar{
+    font-size: 12px;
+    text-align: right;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+#third{
+    background: url(../images/footer.png) repeat-x center;
+    height: 370px;
+}
+footer{
+    width: 1000px;
+    margin: 10px auto 0px auto;
+    height: 280px;
+}
+.footertop{
+    width: 1000px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom1{
+    width: 333px;
+}
+.bottom1 h4{
+    color: #ee4421;
+    font-family: Arial,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.bottom1 ul{
+    margin-top: 10px;
+    list-style: none;
+}
+.bottom1 li img{
+    width: 6px;
+    height: 6px;
+    margin-top: 8px;
+}
+.bottom1 li a{
+    font-size: 12px;
+    color: #084a87;
+    padding: 5px 0px 0px 5px;
+    text-decoration: none;
+}
+.contact{
+    margin-top: 10px;
+}
+.contact li{
+    font-size: 12px;
+    color: #084a87;
+    font-family: Arial,Verdana,Tahoma, sans-serif;
+    padding: 5px 5px 8px 0px;
+    line-height: 20px;
+    text-align: right;
+    margin-right: 20px;
+
+}
+.footermiddle{
+    background: url(../images/footer_border.jpg) no-repeat center;
+    width: 954px;
+    height: 2px;
+    margin: 20px auto 0px 25px;
+}
+.footerbottom{
+    margin-top: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: end;
+}
+.icon{
+    width: 300px;
+    margin-top: 15px;
+}
+.icon img{
+    margin-left: 3px;
+}
